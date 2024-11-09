@@ -1,0 +1,28 @@
+# Challenge from edabit.com
+# Title: Convert Age to Days
+# Complexity: Very easy
+# Description: Create a function that converts age to days
+# Condition: Use 365 as number of days per year
+# For further challenge, creat functions on the ff: 
+#   - Accept an input for age
+#   - Determine year of birth in computing age
+#   - determine if year is leap yr, use 366 else use 365
+
+def check_if_leap_yr(year)
+    if year % 400 == 0:
+       days = 366
+       if year % 100 == 0:
+          days = 365
+       elif year % 4 == 0:
+          days = 366
+       else
+          days = 365
+    else:
+        days = 365
+      
+
+def calc_days(age,days) 
+   return age * days
+
+
+  
